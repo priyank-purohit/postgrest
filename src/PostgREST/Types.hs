@@ -159,6 +159,7 @@ operators = M.union (M.fromList [
   ("neq", "<>"),
   ("like", "LIKE"),
   ("ilike", "ILIKE"),
+  ("rx", "~"),
   ("in", "IN"),
   ("is", "IS"),
   ("cs", "@>"),
